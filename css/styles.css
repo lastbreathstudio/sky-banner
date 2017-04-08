@@ -1,0 +1,54 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+@font-face {
+    font-family: skyBold;
+    src: url(../fonts/SkyText-Bold.ttf);
+}
+
+@font-face {
+    font-family: skyRegMed;
+    src: url(../fonts/SkyTextMedium-Regular.ttf);
+}
+
+@font-face {
+    font-family: skyReg;
+    src: url(../fonts/SkyText-Regular.ttf);
+}
+#stage{
+	overflow:hidden;
+}
+
+.red-blue{
+	visibility: hidden;
+	 width: 300px;
+	 font-family: skyReg;
+	 font-size: 22px;
+	 background: -webkit-linear-gradient(left, #f08300, #e30613, #a72a79, #0b4697);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+}
+.red-blue2{
+	visibility: hidden;
+	 width: 300px;
+	 font-family: skyReg;
+	 font-size: 24px;
+	 background: -webkit-linear-gradient(left, #f08300, #e30613, #a72a79, #0b4697);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+}
+.blue{
+	width: 300px;
+	text-align: center;
+	 font-family: skyRegMed;
+	 font-size: 14px;
+	color:#284698;
+}
+
+.dark-small{
+	color: #4e4e4e;
+	font-size: 11px;
+}
